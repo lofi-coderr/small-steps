@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1">
+  <title>Small Steps</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <main class="desk">
+    <header>
+      <p>A ROOM TO FOCUS</p>
+      <h1>Small Steps</h1>
+      <p>One thing at a time.</p>
+    </header>
+    <section class="card" aria-label="Task list">
+      <form id="add-form">
+        <label class="sr-only" for="task-input">
+          What would you like to do?
+        </label>
+        <input id="task-input" maxlength="120"
+          placeholder="A small next step…" required>
+        <button class="primary" type="submit">
+          Add task
+        </button>
+      </form>
+      <nav id="filters" aria-label="Filter tasks">
+        <button data-filter="all"
+          aria-pressed="true">All</button>
+        <button data-filter="active"
+          aria-pressed="false">Active</button>
+        <button data-filter="done"
+          aria-pressed="false">Done</button>
+      </nav>
+      <ul id="tasks" aria-label="Tasks"></ul>
+      <p id="empty" role="status"></p>
+      <footer>
+        <span id="count" aria-live="polite"></span>
+        <button id="clear" type="button">
+          Clear completed
+        </button>
+      </footer>
+    </section>
+    <p class="hint">Press / to add a task.</p>
+  </main>
+</body>
+</html>
