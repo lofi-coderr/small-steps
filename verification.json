@@ -1,0 +1,261 @@
+{
+  "source_replay": "PASS",
+  "chapter_snapshots": 12,
+  "final_checkpoint_matches_root": true,
+  "final_code_complete_before_demo": true,
+  "last_source_edit_seconds": 7121.333333,
+  "demo_start_seconds": 7140,
+  "chapter_js_syntax": "PASS",
+  "node_model_tests": {
+    "passed": 4,
+    "failed": 0,
+    "tests": [
+      {
+        "name": "trim and limit text",
+        "status": "PASS"
+      },
+      {
+        "name": "filter without mutation",
+        "status": "PASS"
+      },
+      {
+        "name": "restore valid unique rows",
+        "status": "PASS"
+      },
+      {
+        "name": "keep Unicode graphemes whole",
+        "status": "PASS"
+      }
+    ]
+  },
+  "browser_checks": {
+    "source_hashes_match": true,
+    "passed": 22,
+    "failed": 0,
+    "not_verified": 1,
+    "page_errors": 0,
+    "checks": [
+      {
+        "name": "button add",
+        "status": "PASS"
+      },
+      {
+        "name": "Enter add",
+        "status": "PASS"
+      },
+      {
+        "name": "whitespace reject",
+        "status": "PASS"
+      },
+      {
+        "name": "checkbox/count",
+        "status": "PASS"
+      },
+      {
+        "name": "Active filter",
+        "status": "PASS"
+      },
+      {
+        "name": "Done filter",
+        "status": "PASS"
+      },
+      {
+        "name": "All filter",
+        "status": "PASS"
+      },
+      {
+        "name": "delete",
+        "status": "PASS"
+      },
+      {
+        "name": "Clear completed retains active and focus",
+        "status": "PASS"
+      },
+      {
+        "name": "reload persistence",
+        "status": "PASS"
+      },
+      {
+        "name": "/ shortcut",
+        "status": "PASS"
+      },
+      {
+        "name": "Escape clear/blur",
+        "status": "PASS"
+      },
+      {
+        "name": "add while Done selects All",
+        "status": "PASS"
+      },
+      {
+        "name": "Unicode persists",
+        "status": "PASS"
+      },
+      {
+        "name": "IME composing keydown does not add (synthetic only)",
+        "status": "PASS"
+      },
+      {
+        "name": "Native OS IME Enter conversion",
+        "status": "NOT VERIFIED"
+      },
+      {
+        "name": "composing Escape preserves input/focus",
+        "status": "PASS"
+      },
+      {
+        "name": "composing / ignores shortcut",
+        "status": "PASS"
+      },
+      {
+        "name": "family emoji 120 intact graphemes",
+        "status": "PASS"
+      },
+      {
+        "name": "combining accent 120 intact graphemes",
+        "status": "PASS"
+      },
+      {
+        "name": "Arabic input/task direction auto RTL",
+        "status": "PASS"
+      },
+      {
+        "name": "Japanese/Arabic retained after reload",
+        "status": "PASS"
+      },
+      {
+        "name": "375px no horizontal overflow",
+        "status": "PASS"
+      }
+    ],
+    "limitations": [
+      "Native OS IME Enter conversion was not verified.",
+      "Composition-key checks used synthetic browser events.",
+      "The app has no explicit Enter composition guard.",
+      "The 375-pixel check is a viewport test, not a physical-device test.",
+      "Without Intl.Segmenter, the code-point fallback can split complex grapheme clusters."
+    ]
+  },
+  "source_sha256": {
+    "app.js": "875917d6e1312d1d6b3a85ba7cdb78abf706105e8fdb15d1615a4c8693e2055e",
+    "index.html": "76d797102d876c3c5cdd737a310401cb7465049ec0592590c9f5745b8e9ee461",
+    "model.js": "ae5758df36d7bd982144c231ea6520e5c984d6efc0f2f74604b7823b507307b1",
+    "model.test.js": "5b280bcbe6d76726faada03eedecc9e8f6b9ac1967d0160af00f1111c850aba3",
+    "package.json": "bd4dc4765dcdcae6923166a2190ccf1b835e547ffe65c8ffc29eed97bb5a2768",
+    "style.css": "28029041af7def41054fa430543a01ac99efcd91a3fc42103d1fcc8a3c2d6ee6"
+  },
+  "chapter_checks": [
+    {
+      "chapter": 1,
+      "javascript_syntax": "PASS",
+      "files": [
+        "app.js",
+        "index.html",
+        "style.css"
+      ]
+    },
+    {
+      "chapter": 2,
+      "javascript_syntax": "PASS",
+      "files": [
+        "app.js",
+        "index.html",
+        "style.css"
+      ]
+    },
+    {
+      "chapter": 3,
+      "javascript_syntax": "PASS",
+      "files": [
+        "app.js",
+        "index.html",
+        "style.css"
+      ]
+    },
+    {
+      "chapter": 4,
+      "javascript_syntax": "PASS",
+      "files": [
+        "app.js",
+        "index.html",
+        "style.css"
+      ]
+    },
+    {
+      "chapter": 5,
+      "javascript_syntax": "PASS",
+      "files": [
+        "app.js",
+        "index.html",
+        "style.css"
+      ]
+    },
+    {
+      "chapter": 6,
+      "javascript_syntax": "PASS",
+      "files": [
+        "app.js",
+        "index.html",
+        "style.css"
+      ]
+    },
+    {
+      "chapter": 7,
+      "javascript_syntax": "PASS",
+      "files": [
+        "app.js",
+        "index.html",
+        "style.css"
+      ]
+    },
+    {
+      "chapter": 8,
+      "javascript_syntax": "PASS",
+      "files": [
+        "app.js",
+        "index.html",
+        "style.css"
+      ]
+    },
+    {
+      "chapter": 9,
+      "javascript_syntax": "PASS",
+      "files": [
+        "app.js",
+        "index.html",
+        "style.css"
+      ]
+    },
+    {
+      "chapter": 10,
+      "javascript_syntax": "PASS",
+      "files": [
+        "app.js",
+        "index.html",
+        "style.css"
+      ]
+    },
+    {
+      "chapter": 11,
+      "javascript_syntax": "PASS",
+      "files": [
+        "app.js",
+        "index.html",
+        "model.js",
+        "style.css"
+      ]
+    },
+    {
+      "chapter": 12,
+      "javascript_syntax": "PASS",
+      "files": [
+        "app.js",
+        "index.html",
+        "model.js",
+        "model.test.js",
+        "package.json",
+        "style.css"
+      ]
+    }
+  ]
+}

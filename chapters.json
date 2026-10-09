@@ -1,0 +1,150 @@
+[
+  {
+    "chapter": 1,
+    "title": "A quiet beginning",
+    "start_seconds": 0,
+    "source_complete_by_seconds": 600,
+    "directory": "checkpoints/01",
+    "files": [
+      "app.js",
+      "index.html",
+      "style.css"
+    ]
+  },
+  {
+    "chapter": 2,
+    "title": "Make room for tasks",
+    "start_seconds": 600,
+    "source_complete_by_seconds": 1200,
+    "directory": "checkpoints/02",
+    "files": [
+      "app.js",
+      "index.html",
+      "style.css"
+    ]
+  },
+  {
+    "chapter": 3,
+    "title": "Give the page its rhythm",
+    "start_seconds": 1200,
+    "source_complete_by_seconds": 1800,
+    "directory": "checkpoints/03",
+    "files": [
+      "app.js",
+      "index.html",
+      "style.css"
+    ]
+  },
+  {
+    "chapter": 4,
+    "title": "Catch the next small step",
+    "start_seconds": 1800,
+    "source_complete_by_seconds": 2400,
+    "directory": "checkpoints/04",
+    "files": [
+      "app.js",
+      "index.html",
+      "style.css"
+    ]
+  },
+  {
+    "chapter": 5,
+    "title": "Finish and let go",
+    "start_seconds": 2400,
+    "source_complete_by_seconds": 3000,
+    "directory": "checkpoints/05",
+    "files": [
+      "app.js",
+      "index.html",
+      "style.css"
+    ]
+  },
+  {
+    "chapter": 6,
+    "title": "Keep a little memory",
+    "start_seconds": 3000,
+    "source_complete_by_seconds": 3600,
+    "directory": "checkpoints/06",
+    "files": [
+      "app.js",
+      "index.html",
+      "style.css"
+    ]
+  },
+  {
+    "chapter": 7,
+    "title": "Choose a smaller view",
+    "start_seconds": 3600,
+    "source_complete_by_seconds": 4200,
+    "directory": "checkpoints/07",
+    "files": [
+      "app.js",
+      "index.html",
+      "style.css"
+    ]
+  },
+  {
+    "chapter": 8,
+    "title": "Count what still matters",
+    "start_seconds": 4200,
+    "source_complete_by_seconds": 4800,
+    "directory": "checkpoints/08",
+    "files": [
+      "app.js",
+      "index.html",
+      "style.css"
+    ]
+  },
+  {
+    "chapter": 9,
+    "title": "Leave space for nothing",
+    "start_seconds": 4800,
+    "source_complete_by_seconds": 5400,
+    "directory": "checkpoints/09",
+    "files": [
+      "app.js",
+      "index.html",
+      "style.css"
+    ]
+  },
+  {
+    "chapter": 10,
+    "title": "A lighter touch",
+    "start_seconds": 5400,
+    "source_complete_by_seconds": 6000,
+    "directory": "checkpoints/10",
+    "files": [
+      "app.js",
+      "index.html",
+      "style.css"
+    ]
+  },
+  {
+    "chapter": 11,
+    "title": "Make the simple parts clear",
+    "start_seconds": 6000,
+    "source_complete_by_seconds": 6600,
+    "directory": "checkpoints/11",
+    "files": [
+      "app.js",
+      "index.html",
+      "model.js",
+      "style.css"
+    ]
+  },
+  {
+    "chapter": 12,
+    "title": "Check the edges, then rest",
+    "start_seconds": 6600,
+    "source_complete_by_seconds": 7140,
+    "directory": "checkpoints/12",
+    "files": [
+      "app.js",
+      "index.html",
+      "model.js",
+      "model.test.js",
+      "package.json",
+      "style.css"
+    ]
+  }
+]
