@@ -1,0 +1,31 @@
+/* A soft, readable workspace. */
+:root {
+  --ink: #e8e6ef;
+  --muted: #a3a1b5;
+  --accent: #bdacec;
+  --panel: #23212e;
+  --line: #3b374c;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background: #181720;
+  font: 16px/1.5 system-ui, sans-serif;
+}
+
+.desk {
+  width: min(100% - 40px, 640px);
+  margin: 80px auto;
+}
+
+h1 { margin: 4px 0; font-size: 36px; }
+
+.card {
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: var(--panel);
+}
